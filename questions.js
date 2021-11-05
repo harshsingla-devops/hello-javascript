@@ -6,15 +6,19 @@
 8. What is hoisiting in Javascript [closed] // refer hoisting.js in same repo
 7. What are different Scopes in Javascript [closed]
 10.What is the difference b/w null, undefined [closed]
+13.What is Destructuring Arrays and Objects
 
 4. What is Currying and why we use it
 6. What is the difference b/w function and arrow functions
 9. What is Prototype in Javascript
 11.Why do we need arrow functions.
 12.What is REPL
-13.What is Destructuring Arrays and Objects
 14.What is spread operator in JavaScript
 15.What is event loop
+16.What is REST Architecture
+17.What is call(),bind()and apply() functions used for
+18.Promises/Async 
+19.
 */
 
 /*********************************************
@@ -87,6 +91,13 @@ console.log(typeof null); // object
 console.log(undefined == null); //true
 console.log(undefined === null); //false
 consoleLog("10. difference b/w undefined and null [closed]");
+
+consoleLog("13. Destructuring of Arrays");
+const arr = [3, 4, 5];
+let [x1, y, z] = arr; //Destructuring of arr
+console.log(`x: ${x1}, y: ${y} and z: ${z}`);
+consoleLog("13. Destructuring of Arrays [closed]");
+
 consoleLog("ENDS HERE");
 function consoleLog(input) {
   console.log(`========= ${input} ===========`);
