@@ -6,5 +6,5 @@ This repository will hold files to showcase various javascript concepts and will
 
 ## My work can be viewed from the below link :
 
-[Link][https://harshsingla-devops.github.io/hello-javascript/home.html]
+[Link](https://harshsingla-devops.github.io/hello-javascript/home.html)
 
